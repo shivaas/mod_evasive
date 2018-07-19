@@ -331,7 +331,7 @@ directory writable only to the user Apache is running as (usually root),
 then set this in your httpd.conf.
 
 
-DOSCloseSocket
+DOSCloseSocket (not Apache compatible)
 ---------
 
 DOSCloseSocket directive instructs mod_evasive to send 403 code and close connection socket. It means an attacker will have to create new connection and it's pretty good for you as it takes some time.
